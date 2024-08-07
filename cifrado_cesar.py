@@ -1,6 +1,4 @@
 # Encriptador Cesar (English alphabet (A-Z))
-import time
-inicio = time.time()
 
 # Variable de control del desplazamiento
 n = 3
@@ -38,4 +36,3 @@ for char in cript_pass:
 
 print(f'Clave cifrada: {cript_pass}')
 print(f'Clave decifrada: {decript_pass}')
-print(round((time.time() - inicio)/5, 2))
